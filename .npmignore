@@ -2,7 +2,6 @@
 .gitignore
 
 # Ignore tests
-test.js
 test/
 
 # Ignore CI config
