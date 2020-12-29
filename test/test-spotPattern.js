@@ -1,7 +1,9 @@
 const test = require("ava");
 const patternPresent = require("../lib/spotPattern.js");
-const validStrings = require("./inc/validStrings.js");
+const {user, archive} = require("./inc/validStrings.js");
 const invalidStrings = require("./inc/invalidStrings.js");
+
+const validStrings = user.concat(archive);
 
 /**
  * =================================
